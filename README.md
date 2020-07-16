@@ -2,11 +2,11 @@
 
 ## Speed and Performance
 
-Using two Raspberry Pis (1 x Pi3b, 1 x Pi4) with Raspiblitz installed.
+Using two Raspberry Pis (1 x Pi3b, 1 x Pi4) with [Raspiblitz](https://github.com/rootzoll/raspiblitz) installed.
 
 Send 100 x 1 satoshis in quick succession, timing the payments.
 
-Screen recorded using OBS
+Screen recorded using [OBS](https://obsproject.com/).
 
 ### Pi3 to Pi4:
 
@@ -20,6 +20,6 @@ Screen recorded using OBS
 - 2.49 seconds per tx
 - [OBS screen capture](https://drive.google.com/file/d/1qvNCACuLcW7-H69yW9lCBH7tGuOoC_w6/view?usp=sharing)
 
-A larger number of transactions can be send each second with a more powerful device sending the transactions, therefore the bottle neck is at the sending node.
+A larger number of transactions can be sent each second with a more powerful device sending the transactions, therefore the bottle neck is at the sending node.
 
 Multiple senders to one node could allow a higher throughput of transactions each second.
