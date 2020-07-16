@@ -5,5 +5,6 @@ do
         sleep 0.2s
         clear
         echo "$BALANCE" | grep -v '{\|}\|pending' | awk '{ print $1 substr($2,1,length($2)-1) }'
-        echo "$SECONDS seconds"
+        declare -i COUNTER=$SECONDS-10
+        echo "$COUNTER seconds"
 done
